@@ -7,4 +7,4 @@ La primera contiene el menú de donde puedes acceder a la segunda y tercera pant
   nota: Favor de moderar su uso, ya que está en versión gratuita.
 la tercera pantalla contiene un conversor de temperatura con fórmulas internas.
 
-En el listado de archivos puedes encontrar un video para descargar y observar el uso de la aplicación.
+
