@@ -69,7 +69,7 @@ public class ConversorDeDivisas extends JFrame implements ActionListener {
 		String[] monedasOrigen = { "Moneda de origen", "Dólares estadounidenses", "Dólares canadienses", "Euros",
 				"Francos suizos",
 				"Libras esterlinas", "Pesos argentinos", "Pesos colombianos", "Pesos mexicanos", "Reales brasileños",
-				"Rublos rusos", "Rupias indias", "Soles", "Wones surcoreanos", "Yenes japonéses", "yuanes chinos" };
+				"Rublos rusos", "Rupias indias", "Soles", "Wones surcoreanos", "Yenes japonéses", "Yuanes chinos" };
 
 		for (String monedaO : monedasOrigen) {
 			comboOrigen.addItem(monedaO);
@@ -87,7 +87,7 @@ public class ConversorDeDivisas extends JFrame implements ActionListener {
 		String[] monedasDestino = { "Moneda de destino", "Dólares estadounidenses", "Dólares canadienses", "Euros",
 				"Francos suizos",
 				"Libras esterlinas", "Pesos argentinos", "Pesos colombianos", "Pesos mexicanos", "Reales brasileños",
-				"Rublos rusos", "Rupias indias", "Soles", "Wones surcoreanos", "Yenes japonéses", "yuanes chinos" };
+				"Rublos rusos", "Rupias indias", "Soles", "Wones surcoreanos", "Yenes japonéses", "Yuanes chinos" };
 
 		for (String monedaD : monedasDestino) {
 			comboDestino.addItem(monedaD);
