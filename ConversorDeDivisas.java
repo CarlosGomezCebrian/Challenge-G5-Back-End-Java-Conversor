@@ -159,7 +159,7 @@ public class ConversorDeDivisas extends JFrame implements ActionListener {
 	private JSONObject obtenerCambioMoneda() {
 		JSONObject cambioMoneda = null;
 		try {
-			URL url = new URL("https://v6.exchangerate-api.com/v6/d6077e3583242934fcbf760f/latest/USD");
+			URL url = new URL("https://open.er-api.com/v6/latest/USD");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
